@@ -1,0 +1,32 @@
+@import "../../main.scss";
+
+.left-sidebar {
+  max-width: 800px;
+  background: #484848;
+  border-radius: 5px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+
+  &__content {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__button-wrap {
+    margin: 20px auto;
+  }
+  .btn {
+    position: relative;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background: #fff;
+      color: #484848
+    }
+  }
+}
+
